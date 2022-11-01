@@ -1,0 +1,44 @@
+.App{
+  margin: auto;
+  text-align: center;
+  padding-top: 70px;
+}
+
+header{
+  margin-bottom: -20px;
+}
+
+input{
+  box-shadow: 2px 2px black;
+  height: 30px;
+  width: 244px;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+button{
+  box-shadow: 2px 2px black;
+  height: 40px;
+  width: 80px;
+  background-color: rgb(119, 119, 233);
+}
+
+.Buttonarea{
+  padding-left: 10px;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+button:hover {
+  background-color: #87aaeb; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+button:active{
+  background-color: #417be7;
+  box-shadow: 0px 0px black;
+}
